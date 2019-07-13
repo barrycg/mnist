@@ -1,0 +1,1 @@
+this project based one python3 is the practice of what I learn from the book <neural network and deep learning>, chapter 1. from barry
