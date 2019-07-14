@@ -1,1 +1,1 @@
-this project based one python3 is the practice of what I learn from the book <neural network and deep learning>, chapter 1. from barry
+This project, based on python3, is a practice of what I learnt from the book <neural network and deep learning>, chapter 1. From barry
