@@ -16,6 +16,12 @@ import sys
 import numpy as np
 
 #### Define the quadratic and cross-entropy cost function
+#### 交叉熵作为cost function的时候， 在nerual network 犯错误的时候，变化更加剧烈。
+####    即离正确值越远时，调整越快。
+
+
+#### 同时使用L1规范化，弃权(dropout)以及增加样本数量来解决过拟合（over-fitting）的问题
+
 
 class QuadraticCost(object):
     
@@ -25,7 +31,7 @@ class QuadraticCost(object):
     @staticmethod
     def delta(z, a, y):
         return (a-y)*sigmoid_prime(z)
-    
+
 class CrossEntropyCost(object):
     
     @staticmethod

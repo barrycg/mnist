@@ -7,7 +7,6 @@ it's a theano-based program for training and running simple neural networks.
 @author: barry
 """
 
-
 #### libraries
 # Standard library
 
@@ -28,6 +27,13 @@ def linear(z):return z
 def ReLU(z):return T.maximum(0.0, z)
 from theano.tensor.nnet import sigmoid
 from theano.tensor import tanh
+
+#### CNN使用三个基本概念:局部感受野？（local receptive fields）, 共享权重(shared wrights) 以及混合池化(pooling)
+
+### 输入层到隐藏层的特征映射，涉及了 local receptive fields and shared weights(卷积核或者滤波器)
+
+### input layer -> hidding layer -> max-pooling layer
+
 
 ####Constants
 GPU = True
