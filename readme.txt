@@ -2,4 +2,6 @@ This project, based on python3, is a practice of what I learnt from the book <ne
 
 basic requirements: python3.5+theano1.0.2 for network3
 
+add the context for ssh test
+
 From barry
